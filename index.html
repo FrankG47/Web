@@ -3,35 +3,154 @@
     <head>
         <meta charset="utf-8">
         <title>Headhunterz</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+        crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./style/style.css">
         <link rel="shortcut icon" href=".\images\Recortelogo.PNG">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
     <body>
-        <main class="grilla">
-            <div class="header">
-                <a href="index.html"><img src="./images/Logo1.PNG"alt="nombre de la empresa"class="logo" width="500rem" height="500rem"></a>
+        <!-- navbar-->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img class="img-fluid" src="./images/Logo2.PNG"alt="Hardhunterz"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Ingreso.html">Ingresar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./carrito.html">Carrito</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./ayuda.html">Ayuda</a></li>
+                      <li><a class="dropdown-item" href="./ProductosPromocionados.html">Productos promocionados</a></li>
+                      <li><a class="dropdown-item" href="./ArmaTuPc.html">Arma tu pc</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="searchbar">
-                <input type="text/numbers"title="Productos" class="search">
+          </nav>
+          <!--Carousel-->
+          <header class="center text-bg-dark p-3">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/67001.jpg" class="d-block w-80 img-thumbnail" alt="gpu">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/67002.jpg" class="d-block w-80 img-thumbnail" alt="gpu">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/67003.jpg" class="d-block w-80 img-thumbnail" alt="gpu">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
-<!--Navbar con ingresos a subpaginas utiles para el usuario-->
-            <div class="ingreso">
-                <a href="./Ingreso.html">ingreso</a>
-            </div>
-            <div class="carrito">
-                <a href="./carrito.html">Carrito</a>
-            </div>
-            <div class="ayuda">
-                <a href="./ayuda.html">ayuda</a>
-            </div>
-<!--Carousel interactivo con imagenes de la galeria de la pagina-->
-            <div class="carousell">
-                <img src="https://static.gigabyte.com/StaticFile/Image/Global/a69f9bb87f60c6790231072d435c9d13/Product/30267/webp/1000">
-            </div>
-            <!--Footer con informacion de la empresa, contacto y link para enviar cv-->
-            <div class="footer">
-                Ayuda,sugerencias o comentario, Trabaja con nosotros (link de contacto) data fiscal
-            </div>
-        </main>
+          </header>
+          <label for="exampleDataList" class="form-label">Busqueda</label>
+<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+<datalist id="datalistOptions">
+  <option value="procesadores">
+  <option value="motherboards">
+  <option value="memorias ram">
+  <option value="placas de video">
+  <option value="fuentes de alimentacion">
+    <option value="gabinetes">
+</datalist>
+          <!--Productos venta inmediata-->
+          <main class="container-fluid">
+            <h1 class="h3 tex-center mt-5 mb-5">Entrega Inmediata</h1>
+            <div class="row justify-content-around">
+                <div class="card border-dark mb-3" style="width: 18rem;">
+                    <img src="./images/Pc1.jpeg" class="card-img-top" alt="Pcgamer">
+                    <div class="card-body">
+                      <h5 class="card-title">Ryzen 5 + 1660 ti</h5>
+                      <p class="card-text">Average Gamer, balanced cost&performance.</p>
+                      <a href="./carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                  </div>
+                  <div class="card border-dark mb-3" style="width: 18rem;">
+                    <img src="./images/pc2.jpeg" class="card-img-top" alt="Pcgamer">
+                    <div class="card-body">
+                      <h5 class="card-title">Ryzen 7 + 2060</h5>
+                      <p class="card-text">Contender, Quality productivity&cost content</p>
+                      <a href="./carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                  </div>
+                  <div class="card border-dark mb-3" style="width: 18rem;">
+                    <img src="./images/pc3.jpeg" class="card-img-top" alt="Pcgamer">
+                    <div class="card-body">
+                      <h5 class="card-title">Intel I7 + 3080Ti</h5>
+                      <p class="card-text">Senior performance, enhanced experience.</p>
+                      <a href="./carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                  </div>
+              </div>
+          </main>
+          <main class="container-fluid">
+            <h1 class="h3 tex-center mt-5 mb-5"></h1>
+            <div class="row justify-content-around">
+                <div class="card border-dark mb-3" style="width: 18rem;">
+                    <img src="./images/ryzen 3.jpeg" class="card-img-top" alt="Pcgamer">
+                    <div class="card-body">
+                      <h5 class="card-title">Ryzen 3</h5>
+                      <p class="card-text">Average Gamer, balanced cost&performance.</p>
+                      <a href="./carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                  </div>
+                  <div class="card border-dark mb-3" style="width: 18rem;">
+                    <img src="./images/ryzen 5.jpeg" class="card-img-top" alt="Pcgamer">
+                    <div class="card-body">
+                      <h5 class="card-title">Ryzen 5</h5>
+                      <p class="card-text">Contender, Quality, productivity&cost content</p>
+                      <a href="./carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                  </div>
+                  <div class="card border-dark mb-3" style="width: 18rem;">
+                    <img src="./images/ryzen 5 pro.jpeg" class="card-img-top" alt="Pcgamer">
+                    <div class="card-body">
+                      <h5 class="card-title">Ryzen 5 pro</h5>
+                      <p class="card-text">Senior performance, enhanced experience.</p>
+                      <a href="./carrito.html" class="btn btn-primary">Agregar al carrito</a>
+                    </div>
+                  </div>
+              </div>
+          </main>
+          <div class="container-fluid">
+            <footer class="footer">
+                <span>
+                    Ayuda,sugerencias o comentario, Trabaja con nosotros (link de contacto) data fiscal
+                </span>
+            </footer>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
 </html>
