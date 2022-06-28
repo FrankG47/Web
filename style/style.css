@@ -1,47 +1,16 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  .footer {
-    background-color: grey;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: -100%;
-      width: 100%;
-    }
-  }
-.nuevaCuenta {
-    border-color: orange;
-    margin: 20px;
-    padding: 20px;
+body {
+  background-color: #ccc;
 }
-.carrito2 {
-    border-color: orange;
-    margin: 20px;
-    padding: 20px;
+
+footer {
+  justify-content: center;
+  text-align: center;
+  background-color: beige;
 }
-.ayuda2 {
-    font-size: 14px;
-    font-family: 'Press Start 2P', cursive;
-    border-style: solid;
-    border-color: orange;
-    margin: 20px;
-    padding: 20px;
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
 }
-.footer {
-    grid-area: footer;
-    color: orange;
-    font-family: 'Press Start 2P', cursive;
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    flex: 1;
-}
+
+/*# sourceMappingURL=style.css.map */

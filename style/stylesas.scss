@@ -1,0 +1,16 @@
+// variables
+$color-letra: grey;
+
+body {
+    background-color: #ccc;
+}
+    
+footer {
+    justify-content: center;
+    text-align: center;
+    background-color: beige;
+}
+span {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: $color-letra;
+}
