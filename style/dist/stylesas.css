@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-fluid {
+  border-style: outset;
+  border-radius: 0.5rem;
+}
+
+.nav-link:hover {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  transition: height 0.8s;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+footer {
+  margin: 1rem;
+  border-style: double;
+  border-radius: 0.5rem;
+  border-color: grey;
+  justify-content: center;
+  text-align: center;
+  background-color: grey;
+}
+
+span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.searchbar {
+  border-style: groove;
+  border-color: grey;
+  border-radius: 0.5rem;
+  background-color: grey;
+  margin: 5%;
+  padding: 0%;
+}
+
+.form-floating {
+  border-style: outset;
+  border-width: 0.1rem;
+  border-color: black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.formulario {
+  margin: 1rem;
+}
+
+.card {
+  border-style: solid;
+  border-color: black;
+}
+
+.mb-3 {
+  margin: 1rem;
+}
+
+.btn-primary {
+  margin: 1rem;
+}

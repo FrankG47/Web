@@ -1,0 +1,7 @@
+.form-floating {
+  border-style: outset;
+  border-width: 0.1rem;
+  border-color: black;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
