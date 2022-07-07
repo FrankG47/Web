@@ -1,0 +1,22 @@
+//partials de /base
+@import "./Base/reset.scss";
+@import "./Base/colores.scss";
+//partials de /layout
+@import "./layout/navbar.scss";
+@import "./layout/footer.scss";
+@import "./layout/searchbar.scss";
+@import "./layout/body.scss";
+@import "./layout/formulario.scss";
+
+//partials de /pages
+@import "./pages/ingreso.scss";
+@import "./pages/ayuda.scss";
+@import "./pages/carrito.scss";
+@import "./pages/productosPromocionados.scss";
+@import "./pages/armaTuPc.scss";
+
+//partials de /components
+@import "./components/cards.scss";
+@import "./components/button.scss";
+@import "./layout/mb-3.scss";
+
