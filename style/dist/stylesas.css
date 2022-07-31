@@ -33,13 +33,18 @@ span {
   color: black;
 }
 
+.carousel-item{
+  background-color: transparent;
+}
+
 .searchbar {
   border-style: groove;
   border-color: grey;
   border-radius: 0.5rem;
-  background-color: grey;
-  margin: 5%;
-  padding: 0%;
+  background-color: silver;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1%;
 }
 
 .form-floating {
@@ -47,7 +52,6 @@ span {
   border-width: 0.1rem;
   border-color: black;
   border-radius: 0.5rem;
-  margin: 1rem;
 }
 
 body {
@@ -55,18 +59,95 @@ body {
 }
 
 .formulario {
-  margin: 1rem;
+  background-color: black;
+
+}
+.Text-venta {
+text-align: center;
+padding-left: 1%;
+border-radius: 5rem;
+border-color: black;
+border-style: outset;
+background-color: rgb(204, 204, 204);
+animation: infinite;
+animation: alternate-reverse infinite;
+}
+.card {
+  width: 18rem;
+  background-color: silver;
+  padding: 1%;
+  border-style: solid;
+  border-color: black;
+  
 }
 
-.card {
+#navbar {
+  background-color: transparent;
   border-style: solid;
   border-color: black;
 }
 
-.mb-3 {
-  margin: 1rem;
+.nav-item{
+  font-size: 120%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: red;
+  border-color: black;
+  border-radius: 5rem;
+  border-style: solid;
+  border-width: 0,5rem;
+  padding: 5%;
+  margin: 5%;
 }
 
-.btn-primary {
-  margin: 1rem;
+#floatingTextarea2 {
+  height: 100px
+}
+
+.button-help {
+  padding-left: .5rem;
+  padding-top: .5rem;
+  font-size: .75rem;
+}
+.banner {
+  background-image: url(/images/ImgParallax.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.banner2 {
+  background-image: url(/images/ImgParallax3.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.display-btn{
+  display: grid;
+  justify-content: center;
+}
+
+.container-fluid2{
+  background-color: black;
+  padding: 1%;
+}
+
+.form-label{
+  display: grid;
+  background-color: black;
+}
+
+#TextCarrito {
+  text-align: center;
+  padding-left: 1%;
+  border-radius: 5rem;
+  border-color: black;
+  border-style: outset;
+  background-color: rgb(204, 204, 204);
+ 
 }

@@ -1,0 +1,13 @@
+.img-fluid {
+  border-style: outset;
+  border-radius: 0.5rem;
+}
+
+.nav-link:hover {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  transition: height 0.8s;
+  background-color: white;
+  border-radius: 0.5rem;
+}
